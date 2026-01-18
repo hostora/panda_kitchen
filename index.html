@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Kitchen | Traditional Sichuan Food</title>
+    <meta name="description"
+        content="Authentic Traditional Sichuan Food in Edinburgh. 9 Summerhall Pl. Experience the taste of heaven.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Panda Kitchen</a>
+            <button class="mobile-toggle" aria-label="Open Navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links-container">
+                <div class="nav-overlay"></div>
+                <ul class="nav-links">
+                    <li class="mobile-header">
+                        <span class="logo mobile-logo">Panda Kitchen</span>
+                        <button class="close-menu-btn" aria-label="Close Navigation"><i
+                                class="fas fa-times"></i></button>
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#dishes">Dishes</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="tel:01316675666" class="btn-primary nav-btn"><i class="fas fa-phone-alt"></i> Call
+                            Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="hero-bg" id="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <h1 class="fade-in-up">Panda Kitchen</h1>
+            <p class="subtitle fade-in-up delay-1">Traditional Sichuan Food</p>
+            <div class="cta-group fade-in-up delay-2">
+                <a href="#dishes" class="btn-primary">View Signature Dishes</a>
+                <a href="https://www.google.com/maps/place/Panda+Kitchen/@55.9392668,-3.1844628,17z" target="_blank"
+                    class="btn-secondary">Get Directions</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding reveal-on-scroll">
+        <div class="container text-center">
+            <h2 class="section-title">A Hidden Gem in Edinburgh</h2>
+            <div class="divider"><i class="fas fa-star"></i></div>
+            <p class="section-text">
+                Welcome to Panda Kitchen, where we bring the authentic heat and soul of Sichuan cuisine to Summerhall
+                Place.
+                Recommended by locals and food lovers alike, we pride ourselves on mouthwatering dishes, a warm
+                atmosphere,
+                and flavors that transport you straight to the heart of China.
+            </p>
+            <p class="section-text">"Go there, you will be like already in the place of heaven which pandas live
+                around."</p>
+        </div>
+    </section>
+
+    <!-- Signature Dishes -->
+    <section id="dishes" class="section-padding bg-dark reveal-on-scroll">
+        <div class="container">
+            <h2 class="section-title text-center text-gold">Signature Dishes</h2>
+            <div class="divider gold"><i class="fas fa-utensils"></i></div>
+
+            <div class="dishes-grid">
+                <!-- Dish 1 -->
+                <div class="dish-card">
+                    <div class="dish-img-wrapper">
+                        <img src="assets/food1.png" alt="Spicy Sichuan Hotpot">
+                    </div>
+                    <div class="dish-info">
+                        <h3>Sichuan Spicy Delight</h3>
+                    </div>
+                </div>
+
+                <!-- Dish 2 -->
+                <div class="dish-card">
+                    <div class="dish-img-wrapper">
+                        <img src="assets/food2.png" alt="Tomato Egg Stir Fry">
+                    </div>
+                    <div class="dish-info">
+                        <h3>Classic Tomato Egg</h3>
+                    </div>
+                </div>
+
+                <!-- Dish 3 -->
+                <div class="dish-card">
+                    <div class="dish-img-wrapper">
+                        <img src="assets/food3.png" alt="Mapo Tofu">
+                    </div>
+                    <div class="dish-info">
+                        <h3>Authentic Mapo Tofu</h3>
+                    </div>
+                </div>
+
+                <!-- Dish 4 -->
+                <div class="dish-card">
+                    <div class="dish-img-wrapper">
+                        <img src="assets/food4.png" alt="Kung Pao Chicken">
+                    </div>
+                    <div class="dish-info">
+                        <h3>Kung Pao Special</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="section-padding reveal-on-scroll">
+        <div class="container">
+            <h2 class="section-title text-center">What Our Guests Say</h2>
+            <div class="divider"><i class="fas fa-quote-right"></i></div>
+
+            <div class="carousel-container">
+                <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+
+                <div class="carousel-track-container">
+                    <ul class="carousel-track">
+                        <li class="carousel-slide current-slide">
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"Rice and food is delicious really recommend this Chinese
+                                    restaurant in Edinburgh"</p>
+                                <p class="review-author">— Oscar</p>
+                            </div>
+                        </li>
+                        <li class="carousel-slide">
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"Don’t miss this HIDDEN damn authentic Chinese (Szechuan) cuisine
+                                    restaurant in Edinburgh. My homie from Szechuan recommended there by private. Can’t
+                                    believe the restaurant will be so much amazing! And the boss, Ms Zhou is also very
+                                    kind!"</p>
+                                <p class="review-author">— Simon, Local Guide</p>
+                            </div>
+                        </li>
+                        <li class="carousel-slide">
+                            <div class="review-card">
+                                <div class="stars">★★★★★</div>
+                                <p class="review-text">"Mouthwatering dishes, especially their 'Tomato Egg'. Highly
+                                    recommended!"</p>
+                                <p class="review-author">— Mel mel, Local Guide</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+
+            <div class="carousel-nav">
+                <button class="carousel-indicator current-slide"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="section-padding bg-dark reveal-on-scroll">
+        <div class="container location-layout">
+            <div class="location-info">
+                <h2 class="section-title text-gold">Visit Us</h2>
+                <div class="divider gold align-left"><i class="fas fa-map-marker-alt"></i></div>
+
+                <address>
+                    <p><i class="fas fa-map-pin"></i> 9 Summerhall Pl,<br>Edinburgh EH9 1QE</p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:01316675666">01316675666</a></p>
+                </address>
+
+                <a href="https://www.google.com/maps/place/Panda+Kitchen/@55.9392668,-3.1844628,17z" target="_blank"
+                    class="btn-primary mt-2">Open in Google Maps</a>
+            </div>
+
+            <div class="location-map">
+                <!-- Using an iframe for the map is better for UX than just a button -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2234.627685654321!2d-3.186656823157643!3d55.93926677315383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c7625164673d%3A0x7d01307b2259663d!2sPanda%20Kitchen!5e0!3m2!1sen!2suk!4v1700000000000!5m2!1sen!2suk"
+                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">Panda Kitchen</div>
+            <div class="footer-contact">
+                <span><i class="fas fa-phone"></i> 01316675666</span>
+                <span><i class="fas fa-map-marker-alt"></i> 9 Summerhall Pl, Edinburgh</span>
+            </div>
+            <div class="copyright">
+                &copy; Panda Kitchen — Traditional Sichuan Food
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
